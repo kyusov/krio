@@ -1,0 +1,136 @@
+.advantages {
+    width: 1328px;
+    height: 434px;
+    padding-left: 296px;
+    padding-top: 98px;
+}
+
+.heading {
+    width: 1328px;
+    height: 60px;
+    border-bottom: 2px solid #379CD6;
+}
+
+.heading p {
+    width: 309px;
+    height: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #666666;
+}
+
+.heading h2 {
+    width: 477px;
+    height: 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 100%;
+    color: #353535;
+    margin: 8px 0px 14px 0px;
+}
+
+.list {
+    width: 1122px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.list h3 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    color: #353535;
+    margin: 0;
+}
+
+.left-items div div, .right-items div div {
+    padding-left: 16px;
+}
+
+
+.list p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+    padding-top: 14px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 44px;
+}
+
+.item img {
+    width: 64px;
+    height: 64px;
+}
+
+.item:first-child {
+    padding-top: 0;
+}
+
+/* .item:nth-child(4) {
+    padding-top: 0;
+} */
+
+.item-1 h3 {
+    width: 277px;
+    height: 20px;
+}
+
+.item-2 h3 {
+    width: 411px;
+    height: 20px;
+}
+
+.item-3 h3 {
+    width: 328px;
+    height: 20px;
+}
+
+.item-4 h3 {
+    width: 274px;
+    height: 20px;
+}
+
+.item-5 h3 {
+    width: 308px;
+    height: 20px;
+}
+
+.item-1 p {
+    width: 256px;
+    height: 34px;
+}
+
+.item-2 p {
+    width: 362px;
+    height: 34px;
+}
+
+.item-3 p {
+    width: 411px;
+    height: 34px;
+}
+
+.item-4 p {
+    width: 378px;
+    height: 51px;
+}
+
+.item-5 p {
+    width: 369px;
+    height: 51px;
+}
+
+.right-items {
+    padding-left: 173px;
+}

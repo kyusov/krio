@@ -1,0 +1,176 @@
+.projects {
+    width: 1920px;
+    height: 672px;
+    padding-top: 96px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.head-project {
+    width: 1920px;
+    height: 80px;
+    background-color: #379CD6;
+}
+
+.name-project {
+    width: 771px;
+    height: 26px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding: 29px 575px 25px 574px;
+    margin: 0;
+}
+
+.img-project, .discription-project {
+    width: 960px;
+    height: 435px;
+}
+
+.discription-project {
+    background-color: #22689E;
+}
+
+.img-disc {
+    display: flex;
+}
+
+.discription-project .text .tag {
+    width: 159px;
+    height: 12px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.discription-project .text .title {
+    width: 525px;
+    height: 52px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.discription-project .text .discription {
+    width: 481px;
+    height: 85px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 23px;
+}
+
+.discription-project .text {
+    padding: 80px 379px 0px 56px;
+}
+
+.discription-project .buttons {
+    padding-top: 47px;
+    padding-left: 56px;
+    display: flex;
+}
+
+.discription-project .buttons button {
+    width: 204px;
+    height: 48px;
+    background-color: #40A8E4;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: white;
+    margin: 0;
+    border: none;
+    padding: 17px 18px 17px 19px;
+}
+
+.discription-project .buttons button:focus {
+    outline: none;
+}
+
+.discription-project .buttons button:hover {
+    cursor: pointer;
+}
+
+.discription-project .buttons .slider {
+    padding-left: 160px;
+    padding-right: 434px;
+}
+
+.discription-project .buttons .slider button {
+    width: 48px;
+    height: 48px;
+}
+
+.discription-project .buttons .slider button img {
+    width: 10px;
+    height: 10px;
+}
+
+.discription-project .buttons .slider-right {
+    margin-left: 5px;
+}
+
+.numbers-project {
+    display: flex;
+    width: 1920px;
+    height: 157px;
+}
+
+.numbers-project .item {
+    width: 480px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.numbers-project .item h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.numbers-project .item p {
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.numbers-project .item span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    color: #91C3E0;
+}
+
+.numbers-project .item:nth-child(1) {
+    background-color: #2388C2;
+}
+
+.numbers-project .item:nth-child(2) {
+    background-color: #40A8E4;
+}
+
+.numbers-project .item:nth-child(3) {
+    background-color: #5FB4E4;
+}
+
+.numbers-project .item:nth-child(4) {
+    background-color: #80C7EF;
+}

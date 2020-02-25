@@ -1,0 +1,116 @@
+.services {
+    display: flex;
+    position: relative;
+    margin-left: 296px;
+    margin-top: 688px;
+    width: 1328px;
+    height: 368px;
+}
+
+.services div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 332px;
+    height: 368px;
+}
+
+.services p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+    text-align: center;
+    align-self: center;
+}
+
+.services button {
+    width: 180px;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    align-self: center;
+}
+
+.card-1 {
+    background-color: #2388C2;
+}
+
+.card-2 {
+    background-color: #379CD6;
+}
+
+.card-3 {
+    background-color: #5FB4E4;
+}
+
+.card-4 {
+    background-color: #80C7EF;
+}
+
+.card-1 button {
+    background-color: #2388C2;
+}
+
+.card-2 button {
+    background-color: #379CD6;
+}
+
+.card-3 button {
+    background-color: #5FB4E4;
+}
+
+.card-4 button {
+    background-color: #80C7EF;
+}
+
+h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    align-self: center;
+}
+
+.card-1 h3 {
+    width: 193px;
+    height: 40px;
+}
+
+.card-2 h3 {
+    width: 180px;
+    height: 20px;
+}
+
+.card-3 h3 {
+    width: 156px;
+    height: 40px;
+}
+
+.card-4 h3 {
+    width: 180px;
+    height: 40px;
+}
+
+.card-1 p {
+    width: 219px;
+    height: 40px;
+}
+
+.card-2 p {
+    width: 179px;
+    height: 40px;
+}
+
+.card-3 p {
+    width: 170px;
+    height: 40px;
+}
+
+.card-4 p {
+    width: 209px;
+    height: 40px;
+}

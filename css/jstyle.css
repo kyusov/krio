@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Proxima Nova Regular';
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* ====================HEADER==================== */
+
+header {
+    /* font-family: 'Montserrat', sans-serif; */
+    width: 100%;
+    height: 144px;
+}
+
+
+/* =================search================= */
+
+body {
+    margin: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+#search {
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    border: none;
+}
+
+.search {
+    float: left;
+    margin-left: 296px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    width: 480px;
+    height: 42px;
+    align-items: center;
+    justify-content: left;
+    border: 1px solid #EEEEEE;
+    box-sizing: padding-box;
+}
+
+#search-logo {
+    padding: 12px;
+}
+
+.search-all {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+/* =================logo=================== */
+
+.logo {
+    float: left;
+    padding-left: 100px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+
+/* =================contacts=============== */
+
+.header-contacts_contact {
+    float: left;
+    padding-left: 123px;
+    margin-top: 51px;
+    padding-right: 122px;
+    margin-bottom: 51px;
+}
+
+.header-contacts_contact div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.header-contacts_button {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    border: 1px solid #40A8E4;
+    box-sizing: border-box;
+    height: 48px;
+    width: 210px;
+}
+
+
+/* =================nav header=============== */
+
+.nav-header {
+    width: 1920px;
+    /* height: 48px; */
+    /* background-color: #FCFCFC; */
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.nav-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 0;
+}
+
+.nav-header ul:first-child {
+    margin-left: 296px;
+}
+
+.nav-header ul:last-child {
+    margin-right: 286px;
+}
+
+
+/* =================footer=============== */
+
+footer {
+    margin-top: 83px;
+    width: 1920px;
+    height: 407px;
+    background-color: #379CD6;
+}
+
+.nav-footer ul:first-child {
+    margin-left: 392px;
+}
+
+.nav-footer ul:last-child {
+    margin-right: 390px;
+}
+
+.nav-footer ul {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    padding-top: 83px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footer-svg {
+    float: left;
+    margin-left: 476px;
+    margin-top: 63px;
+}
+
+.footer-buttons {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    float: left;
+}
+
+.footer-btn_support,
+.footer-btn_question {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 220px;
+    height: 48px;
+    margin-left: 74px;
+    margin-right: 62px;
+}
+
+.footer-btn_support {
+    margin-bottom: 32px;
+    margin-top: 63px;
+}
+
+.footer-contacts {
+    float: left;
+    margin-top: 58px;
+    width: 380px;
+    color: white;
+}
+
+.footer-contacts div {
+    padding: 8px;
+}
+
+.footer-arrow {
+    margin-left: 75px;
+    margin-right: 370px;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.copyright {
+    background: #22689E;
+    height: 44px;
+    width: 1920px;
+}
+
+.copyright ul {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 296px;
+}
+
+.copyright li {
+    padding: 15px;
+}
+
+.copyright li:last-child {
+    padding-left: 174px;
+}
+
+
+/* =================link=============== */
+
+.nav-header a:visited {
+    color: #666666
+}
+
+.nav-header a:visited:hover {
+    color: #40A8E4
+}
+
+.nav-header a:link {
+    text-decoration: none;
+    color: #666666
+}
+
+.nav-header a:link:hover {
+    color: #40A8E4;
+}
+
+.header-contacts_button a {
+    text-decoration: none;
+    color: #40A8E4;
+}
+
+.header-contacts_button a:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
+.nav-footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-footer a:hover {
+    color: #666666;
+}
+
+.footer-btn_support a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-btn_support a:hover {
+    color: #666666;
+}
+
+.footer-btn_question a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-btn_question a:hover {
+    color: #666666;
+}
+
+.footer-arrow:hover {
+    border: 1px solid #666666;
+}
+
+.header-contacts_contact a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.header-contacts_contact a:hover {
+    color: #40A8E4;
+}
+
+.footer-contacts a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-contacts a:hover {
+    text-decoration: none;
+    color: #666666;
+}

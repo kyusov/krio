@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Proxima Nova Regular';
+    font-style: normal;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
+
+.banner {
+    position: absolute;
+    width: 1920px;
+    height: 768px;
+    background-image: url('../img/background.svg');
+
+}
+
+.left_block {
+    position: absolute;
+    width: 555px;
+    height: 295px;
+    padding-top: 196px;
+    padding-left: 296px;
+}
+
+.title {
+    width: 555px;
+    height: 96px;
+}
+
+.title p {
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: rgba(51, 51, 51, 0.99);
+}
+
+.discription {
+    width: 492px;
+    height: 80px;
+    margin-top: 42px;
+}
+
+.discription p {
+    font-size: 16px;
+    line-height: 125%;
+    color: #666666;
+}
+
+.btn {
+    width: 180px;
+    height: 48px;
+    margin-top: 29px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn_services {
+    background: #40A8E4;
+    color: white;
+    border: none;
+}
+
+.btn_company {
+    margin-left: 40px;
+    background: #FFFFFF;
+    border: 1px solid #40A8E4;
+    color: #40A8E4;
+}
+
+.banner .left_block button {
+    flex-direction: unset;
+    display: unset;
+}
+
+.right_block {
+    width: 1920px;
+    height: 768px;
+    background-image: url('../img/map.svg');
+}
+
+.stat {
+    width: 223px;
+    height: 518px;
+    padding-left: 968px;
+    padding-top: 79px;
+}
+
+.stat ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.decoration_stat {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 100%;
+    color: rgba(51, 51, 51, 0.99);
+}
+
+.stat li {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+    /* padding-top: 35px; */
+    margin-top: 35px;
+}
+
+.stat li:first-child {
+    padding-top: 0;
+    width: 223px;
+    height: 60px;
+}
+
+.stat li:last-child {
+    width: 106px;
+    height: 86px;
+}
+
+.stat li:nth-child(4) {
+    width: 121px;
+    height: 77px;
+}
+
+.stat li:nth-child(3) {
+    width: 152px;
+    height: 86px;
+}
+
+.stat li:nth-child(2) {
+    width: 141px;
+    height: 69px;
+}
+
+
+.text_1 {
+    position: absolute;
+    padding-top: 5px;
+    width: 180px;
+    height: 51px;
+    padding-left: 10px;
+}

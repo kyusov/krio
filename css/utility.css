@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Proxima Nova Regular';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.btn {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-low {
+    width: 180px;
+    height: 48px;
+}
+
+.btn-high {
+    width: 220px;
+    height: 48px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-light-blue {
+    color: #ffffff;
+    background-color: #40a8e4;
+    transition: all 200ms ease-out;
+}
+
+.btn-light-blue:hover {
+    color: #40a8e4;
+    background-color: #ffffff;
+    transition: all 200ms ease-in;
+    border: 1px solid #40a8e4;
+}
+
+.btn-blue {
+    color: #ffffff;
+    background-color: #2388c2;
+    transition: all 200ms ease-out;
+}
+
+.btn-blue:hover {
+    color: #2388c2;
+    background-color: #ffffff;
+    transition: all 200ms ease-in;
+    border: 1px solid #2388c2;
+}
+
+.btn-dark-blue {
+    color: #ffffff;
+    background-color: #22689e;
+    transition: all 200ms ease-out;
+}
+
+.btn-dark-blue:hover {
+    color: #22689e;
+    background-color: #ffffff;
+    transition: all 200ms ease-in;
+    border: 1px solid #22689e;
+}
+
+.btn-white {
+    color: #40a8e4;
+    background-color: #ffffff;
+    border: 1px solid #40a8e4;
+    transition: all 200ms ease-out;
+}
+
+.btn-white:hover {
+    color: #ffffff;
+    background-color: #40a8e4;
+    transition: all 200ms ease-in;
+}
+
+p {
+    font-size: 16px;
+    line-height: 125%;
+    color: #666666;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 100%;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 100%;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 100%;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+.darkest-blue {
+    background-color: #22689e;
+}
+
+.dark-blue {
+    background-color: #2388c2;
+}
+
+.blue {
+    background-color: #379cd6;
+}
+
+.light-blue {
+    background-color: #5fb4e4;
+}
+
+.lightest-blue {
+    background-color: #80c7ef;
+}
+
+.action-blue {
+    background-color: #40a8e4;
+}
